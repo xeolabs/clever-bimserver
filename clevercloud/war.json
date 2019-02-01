@@ -1,0 +1,14 @@
+{
+  "deploy": {
+    "container": "TOMCAT8",
+
+    "war": [
+      {
+        "file": "ROOT.war",
+        "context": "/",
+        "checkMe": "/"
+      }
+    ]
+  }
+}
+
